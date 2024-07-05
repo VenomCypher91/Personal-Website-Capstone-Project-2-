@@ -1,0 +1,103 @@
+
+*{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: 'CustomFont'; /* Name your font family */
+    src: url('../Assets/Fonts/Gotham\ Medium/');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif; /* Use the font family */
+
+}
+
+p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.one {
+          background-color: #E7D4B5;
+}
+
+.two{
+    background-color: #B6C7AA;
+}
+
+.three{
+ background-color: #F6E6CB;
+ align-content: center;
+}
+
+h1 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  width: 50%;
+}
+
+h2{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 25px;
+}
+
+h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+
+margin: auto;
+padding: auto;
+}
+
+.robbie{
+    border-radius: 50%;
+    margin-left: 100px
+}
+
+footer{
+    background-color: #A0937D;
+}
+
+.four {
+    color: white;
+    align-items: center;
+  justify-content: center;
+
+}
+#myimage{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    p, h1, h2, h3 {
+        width: 80%;
+    }
+    .robbie {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    p, h1, h2, h3 {
+        width: 90%;
+    }
+}
